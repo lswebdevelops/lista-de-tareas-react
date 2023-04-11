@@ -1,5 +1,6 @@
 import React, {useState} from "react";
-import '../hojas-de-estilo/TareaFormulario.css'
+import '../hojas-de-estilo/TareaFormulario.css';
+import {v4 as uuidv4} from 'uuid';
 
 function TareaFormulario(props){
   const [input, setInput] = useState ('');
@@ -10,8 +11,10 @@ function TareaFormulario(props){
     e.preventDefault();
     console.log("enviando formulário");
     const tareaNueva = {
-      id: '34545',
-      text: "hola"
+      // use the package uuid (npm install uuid) for generating the id
+      id: uuidv4() ,
+      text: input,
+      completada: false,
     }
   }
 
