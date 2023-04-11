@@ -7,16 +7,18 @@ function TareaFormulario(props){
   const manejarCambio = e =>{
      setInput(e.target.value);
   }
+
   const manejarEnvio = e =>{
     e.preventDefault();
-    console.log("enviando formulário");
+    
     const tareaNueva = {
       // use the package uuid (npm install uuid) for generating the id
       id: uuidv4() ,
-      text: input,
-      completada: false,
-    }
-  }
+      texto: input,
+      completada: false
+    };
+     props.onSubmit(tareaNueva);
+  };
 
 
 
