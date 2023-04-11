@@ -13,10 +13,10 @@
   }
   
   h1 {
+    text-align: center;
     color: #1b1b32;
     font-size: 25px;
     font-family: Roboto, sans-serif;
-    text-align: center;
     margin: 20px 0;
   }
   
@@ -52,4 +52,13 @@
     padding: 25px;
     margin: 10px;
     border-radius: 26px;
+    border: solid firebrick 2;
+  }
+  /* forcing the div to be centered */
+  .tareas-lista-principal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* existing CSS code */
   }
