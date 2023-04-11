@@ -3,8 +3,8 @@ https://lswebdevelops.github.io/lista-de-tareas-react/
 
 
 
-![Website](https://github.com/lswebdevelops/lista-de-tareas-react/blob/main/src/imagenes/listaDetareas.png)
 
+![Website](https://github.com/lswebdevelops/lista-de-tareas-react/blob/main/src/imagenes/listaDetareas2.png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
