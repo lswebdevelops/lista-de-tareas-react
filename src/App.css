@@ -1,64 +1,55 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html, 
-  body {
-    color: white;
-    background-color: #1b1b32;
-    font-family: Lato, sans-serif;
-    margin-top: 40px;
-  }
-  
-  h1 {
-    text-align: center;
-    color: #1b1b32;
-    font-size: 25px;
-    font-family: Roboto, sans-serif;
-    margin: 20px 0;
-  }
-  
-  .aplicacion-tareas {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* Logo de fcc */
-  
-  .freecodecamp-logo-contenedor {
-    width: 100%;
-    margin: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, 
+body {
+  color: white;
+  background-color: #1b1b32;
+  font-family: Lato, sans-serif;
+  margin-top: 40px;
+}
+
+h1 {
+  color: #1b1b32;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.aplicacion-tareas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Logo de freeCodeCamp */
+
+.freecodecamp-logo-contenedor {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .freecodecamp-logo {
-    width: 400px;
-    height: 50px;
+  width: 400px;
+  height: 50px;
 }
 
 /* Listas de Tareas */
+
 .tareas-lista-principal {
-    width: 100%;
-    max-width: 600px; /* Agregar esta línea */
-    justify-content: center;
-    min-height: 500px;
-    background-color: #d0d0d5;
-    padding: 25px;
-    margin: 10px;
-    border-radius: 26px;
-    border: solid firebrick 2;
-  }
-  /* forcing the div to be centered */
-  .tareas-lista-principal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* existing CSS code */
-  }
+  width: 600px;
+  min-height: 500px;
+  background-color: #d0d0d5;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
+}
+

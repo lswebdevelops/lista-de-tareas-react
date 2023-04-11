@@ -1,20 +1,19 @@
 import './App.css';
-import freeCodeCampLogo from  './imagenes/freecodecamp-logo.png';
+import freeCodeCampLogo from './imagenes/freecodecamp-logo.png';
 import ListaDeTareas from './componentes/ListaDeTareas';
 
 function App() {
   return (
-    <div className="applicacion-tareas">
+    <div className='aplicacion-tareas'>
       <div className='freecodecamp-logo-contenedor'>
-      <img 
-      src={freeCodeCampLogo}
-      className='freecodecamp-logo'
-      alt='freeCodeCamp logo'
-       />
+        <img 
+          src={freeCodeCampLogo} 
+          className='freecodecamp-logo'
+          alt='logo de fcc' />
       </div>
       <div className='tareas-lista-principal'>
         <h1>Mis Tareas</h1>
-        <ListaDeTareas />        
+        <ListaDeTareas />
       </div>
     </div>
   );

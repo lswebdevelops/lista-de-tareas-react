@@ -1,41 +1,43 @@
-import React, {useState} from "react";
+import React, { useState } from 'react';
 import '../hojas-de-estilo/TareaFormulario.css';
-import {v4 as uuidv4} from 'uuid';
+import { v4 as uuidv4 } from 'uuid';
 
-function TareaFormulario(props){
-  const [input, setInput] = useState ('');
-  const manejarCambio = e =>{
-     setInput(e.target.value);
+function TareaFormulario(props) {
+
+  const [input, setInput] = useState('');
+
+  const manejarCambio = e => {
+    setInput(e.target.value);
   }
 
-  const manejarEnvio = e =>{
+  const manejarEnvio = e => {
     e.preventDefault();
     
     const tareaNueva = {
-      // use the package uuid (npm install uuid) for generating the id
-      id: uuidv4() ,
+      id: uuidv4(),
       texto: input,
       completada: false
-    };
-     props.onSubmit(tareaNueva);
-  };
+    }
 
+    props.onSubmit(tareaNueva);
+  }
 
-
-
-  return(
-    <form className='tarea-formulario'
+  return (
+    <form 
+      className='tarea-formulario'
       onSubmit={manejarEnvio}>
       <input 
-      className="tarea-input"
-      type="text"
-      placeholder="Escribe una tarea"
-      name="texto"
-      onChange={manejarCambio}
+        className='tarea-input'
+        type='text'
+        placeholder='Escribe una Tarea'
+        name='texto'
+        onChange={manejarCambio}
       />
-      <button className="tarea-boton">agregar tarea</button>
+      <button className='tarea-boton'>
+        Agregar Tarea
+      </button>
     </form>
-
   );
 }
+
 export default TareaFormulario;
