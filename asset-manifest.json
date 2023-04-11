@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/lista-de-tareas-react/static/css/main.a535025d.css",
+    "main.css": "/lista-de-tareas-react/static/css/main.6dc1c5e0.css",
     "main.js": "/lista-de-tareas-react/static/js/main.1c370c2e.js",
     "static/media/freecodecamp-logo.png": "/lista-de-tareas-react/static/media/freecodecamp-logo.5486935b905c7949600c.png",
     "index.html": "/lista-de-tareas-react/index.html",
-    "main.a535025d.css.map": "/lista-de-tareas-react/static/css/main.a535025d.css.map",
+    "main.6dc1c5e0.css.map": "/lista-de-tareas-react/static/css/main.6dc1c5e0.css.map",
     "main.1c370c2e.js.map": "/lista-de-tareas-react/static/js/main.1c370c2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.a535025d.css",
+    "static/css/main.6dc1c5e0.css",
     "static/js/main.1c370c2e.js"
   ]
 }
